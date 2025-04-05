@@ -1,0 +1,153 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+.navbar {
+  height: 5rem;
+  background-color: #fff;
+}
+
+.fa-compass {
+  color: #fe424d;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+
+/* Footer */
+.f-info-links a,
+.f-info-socials a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-info-socials i {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.f-info-socials a:hover {
+  transform: scale(1.5);
+  border-radius: 30%;
+  transition-delay: 0.2s;
+  transition: 0.5s;
+}
+.f-info {
+  text-align: center;
+  height: 8rem;
+  background-color: #ebebeb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+}
+
+/* Cards */
+.card {
+  border: none !important;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.review-card {
+  border: 1px solid black !important;
+  margin-bottom: 2rem;
+}
+
+.glow,
+.review-card {
+  transition: border-color 1s, box-shadow 0.5s;
+}
+
+.glow:hover,
+.review-card:hover {
+  border-color: rgba(253, 62, 62, 0.7);
+  box-shadow: 2px 2px 15px 5px #fc434f;
+}
+
+.card-img-top {
+  border-radius: 0.5rem 0.5rem 1rem 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-text p {
+  font-weight: 400;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.listing-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Card Effect */
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  background-color: whitesmoke;
+  opacity: 0.2;
+}
+
+.add-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+/* Edit Page */
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+/* Show Page */
+.show-img {
+  height: 30vh;
+  object-fit: cover;
+}
+
+.btns {
+  display: flex;
+}
+
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* MAP */
+#map {
+  height: 400px;
+  width: 80vh;
+}
